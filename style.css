@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden auto;
+    
+}
+body{
+    background-color: rgb(207, 207, 206);
+   
+    
+
+}
+#nav{
+    background-color: #FFFFFF;
+    height: 67px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+
+}
+#logo{
+   background-image: url(logo.png);
+   background-size: cover;
+   height: 70px;
+   width: 160px;
+   margin-bottom:15px ;
+}
+#search_box{
+    display: flex;
+
+}
+#search_icon{
+    height: 70;
+    width: 70;
+    background-color: rgba(53, 248, 248, 0.11);
+    border-radius: 10px 0px 0px 10px;
+    
+}
+#search_icon img { 
+    width: 25px;
+    height:25px;
+    margin-top: 8px;
+    margin-left: 5px;    
+    
+    
+}
+#search_box input{
+    background-color: rgba(53, 248, 248, 0.11);
+    border: none;
+    height:40px ;
+    width: 500px;
+    border-radius: 0px 10px 10px 0px ;
+    font-size: 17px;
+    padding-left: 10px;
+}
+/**Login**/
+#login{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 70px;
+    margin-left: 5px;
+    
+}
+#login img{
+    width: 24;
+    height: 24px;
+}
+/* cart start*/
+#cart{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+
+}
+#cart img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+
+}
+/* Store Start*/
+#store{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+
+}
+
+#store img{
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+/* three dot start*/
+
+#three-dot{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+}
+#three-dot img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+/*Main Category div*/
+#main-category{
+    
+    background-color: #FFFFFF;
+    height: 150px;
+    width: 97%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 1.5%;
+    
+}
+#pic1{
+    display: block;
+    margin-top: 35px;
+    height: 93px;
+    width: 90px;
+    text-align: center;
+    
+    
+}
+#pic1 span{
+    margin-top: 20px;
+    margin-left: -75px;
+}
+#pic1 img{
+    padding-bottom: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+#pic2{
+    display: block;
+    margin-top: 35px;
+    height: 93px;
+    width: 90px;
+    text-align: center;
+    
+    
+}
+#pic2 span{
+    margin-top: 20px;
+    margin-left: -75px;
+}
+#pic2 img{
+    padding-bottom: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+#pic3{
+    display: block;
+    margin-top: 35px;
+    height: 93px;
+    width: 90px;
+    text-align: center;
+    
+    
+}
+#pic3 span{
+    margin-top: 20px;
+    margin-left: -75px;
+}
+#pic3 img{
+    padding-bottom: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+#pic4{
+    display: block;
+    margin-top: 35px;
+    height: 93px;
+    width: 90px;
+    text-align: center;
+    
+    
+}
+#pic4 span{
+    margin-top: 20px;
+    margin-left: -75px;
+}
+#pic4 img{
+    padding-bottom: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+#pic5{
+    display: block;
+    margin-top: 35px;
+    height: 93px;
+    width: 130px;
+    text-align: center;
+    
+    
+}
+#pic5 span{
+    margin-top: 20px;
+    margin-left: -75px;
+}
+#pic5 img{
+    padding-bottom: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+#pic6{
+    display: block;
+    margin-top: 35px;
+    height: 93px;
+    width: 90px;
+    text-align: center;
+    
+    
+}
+#pic6 span{
+    margin-top: 20px;
+    margin-left: -75px;
+}
+#pic6 img{
+    padding-bottom: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+#pic7{
+    display: block;
+    margin-top: 35px;
+    height: 93px;
+    width: 90px;
+    text-align: center;
+    
+    
+}
+#pic7 span{
+    margin-top: 20px;
+    margin-left: -75px;
+}
+#pic7 img{
+    padding-bottom: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+#pic8{
+    display: block;
+    margin-top: 35px;
+    height: 93px;
+    width: 130px;
+    text-align: center;
+    
+    
+}
+#pic8 span{
+    margin-top: 20px;
+    margin-left: -75px;
+}
+#pic8 img{
+    padding-bottom: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+
+#pic9{
+    display: block;
+    margin-top: 35px;
+    height: 93px;
+    width: 130px;
+    text-align: center;
+    
+    
+    
+}
+#pic9 span{
+    margin-top: 20px;
+    margin-left: -75px;
+}
+#pic9 img{
+    padding-bottom: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+#text-hover span:hover{
+    color: blue;
+}
+
+/*slider start*/
+#slider{
+    margin-top: 10px;
+    width: 97%;
+    margin-left: 1.5%;
+    
+}
+
+/* Heading 1 start*/
+
+#heading1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 97%;
+    margin-left: 1.5%;
+    margin-top: 7px;
+
+   
+
+}
+#more-icoin{
+    height: 70px;
+    width: 70px;
+}
+#more-icoin img{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+}
+/*Products start*/
+
+#category-products{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    width: 97%;
+    height: 270px;
+    margin-left: 1.5%;
+   
+    
+}
+#border{
+    border: 1px solid rgb(214, 210, 210);
+    border-radius: 3px;
+    width: 200px;
+    height: 267px;
+    display: block;
+    justify-content: center;
+    margin-top: 2px;
+    
+    
+}
+#image{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+#image img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 2px;
+}
+
+#Product-name{
+    text-align: center;
+
+}
+#button{
+    text-align: center;
+
+}
+
+/*4products and 1 ads banner */
+
+#ads-banner{
+    width: 97%;
+    margin-left: 1.5%;
+    display: flex;
+    
+
+}
+#sesioniproduct{
+    display: block;
+    width: 35%;
+    height: 70px;
+    background-color: #FFFFFF;
+    margin-right: 10px;
+
+}
+#heading2{
+    display: flex;
+    justify-content: space-between;
+    margin-top:20px ;
+    
+}
+#more-icoin2 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 1px;
+    margin-right: 10px;
+
+}
+/*4 products*/
+#products-4-set{
+    display: flex;
+    position: sticky;
+    background-color: #FFFFFF;
+    width: 35%;
+    height: 515px;
+    top: 70px;
+    margin-left: -457px;   
+    flex-wrap: wrap-reverse;
+    overflow: hidden;
+    padding: 5px;
+   
+    justify-content: space-around;
+}
+
+/*banner image */
+#ads-banner-image{
+    width: 884px;
+    height: 645px;
+}
+#ads-banner-image img{
+    width: 884px;
+    height: 100%px;
+    padding-left: 10px;
+}
+/*story start*/
+#story{
+    background-color:#F5F5F5 ;
+    width: 100%;
+    height: 100%;
+    display: block;
+
+}
+#content{
+    width: 97%;
+    margin-left: 1.5%;
+}
+#most-search{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    
+    
+}
+#catagory-link{
+    display: flex;
+    flex-wrap: wrap;
+}
+#catagory-link a{
+    text-decoration: none;
+    color: #565656;
+    margin-left: 5px;
+    font-size: 13px;
+    margin-right: 5px
+}
+#description-category{
+    display: block;
+    color: #565656;   
+    width: 97%;
+    margin-left: 1.5%;
+}
+#description-category p{
+    font-size: 14px;
+    color: #565656;
+}
+
+/*Footer Start */
+
+#footer{
+    background-color: black;
+    width: 100%;
+    height: 360px;
+
+}
+#tags{
+    display: flex;
+    justify-content: space-evenly;
+    position: sticky;
+
+}
+#tag-input{
+    width: 151px;
+    height: 240px;
+    display: block;
+    flex-direction: row;
+    color:#FFFFFF;
+    margin-top: 30px;
+}
+#tag-input a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+#tag-input a:hover{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.footer-mail{
+    padding-left: 40px;
+    
+   
+    overflow: hidden;
+    border-left: 1px solid #FFFFFF;
+
+}
+.footer-address{
+    padding-left: 40px;
+    
+    
+    overflow: hidden;
+
+}
+#Social{
+    display: flex;
+    width: 150px;
+    height: 70px;
+}
+#Social img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+    
+}
+
+
+#copyright{
+    margin-top: 20px;
+    border-top: 1px solid #F5F5F5;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+#copyright a{
+    text-decoration: none;
+    color: #F5F5F5;
+    margin-top: 25px;
+
+}
+
+
